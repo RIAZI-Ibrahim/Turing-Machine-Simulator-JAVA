@@ -1,0 +1,13 @@
+a b $ !
+aaabbb
+0 a $ r 1 none
+0 b ! ! ! rejected
+0 $ ! ! ! accepted
+1 a a r 1 none
+1 b b r 1 none
+1 $ $ l 2 none
+2 a ! ! ! rejected
+2 b $ l 3 none
+3 a a l 3 none
+3 b b l 3 none
+3 $ $ r 0 none

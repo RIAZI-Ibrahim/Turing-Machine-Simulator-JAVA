@@ -1,0 +1,115 @@
+{
+  "alphabet": "a b $ ",
+  "mot": "aabb$",
+  "states": {
+    "state0": [
+      {
+        "Transitions": {
+          "Transition1": {
+            "charRead": "a",
+            "charWrote": "$",
+            "direction": "r",
+            "nextState": "state1",
+            "decision": "none"
+          },
+
+        "Transition2": {
+          "charRead": "b",
+          "charWrote": "",
+          "direction": "",
+          "nextState": "",
+          "decision": "rejected"
+        },
+
+        "Transition3": {
+          "charRead": "$",
+          "charWrote": "",
+          "direction": "",
+          "nextState": "",
+          "decision": "accepted"
+        }
+      }
+
+      }
+
+    ] ,
+    "state1":[
+      {
+        "Transitions": {
+          "Transition1": {
+            "charRead": "a",
+            "charWrote": "a",
+            "direction": "r",
+            "nextState": "state1",
+            "decision": "none"
+          },
+          "Transition2": {
+            "charRead": "b",
+            "charWrote": "b",
+            "direction": "r",
+            "nextState": "state1",
+            "decision": "none"
+          },
+          "Transition3": {
+            "charRead": "$",
+            "charWrote": "$",
+            "direction": "l",
+            "nextState": "state2",
+            "decision": "none"
+          }
+        }
+      }
+    ],
+    "state2":[
+      {
+        "Transitions": {
+          "Transition1": {
+            "charRead": "",
+            "charWrote": "",
+            "direction": "",
+            "nextState": "",
+            "decision": "rejected"
+          },
+          "Transition2": {
+            "charRead": "b",
+            "charWrote": "$",
+            "direction": "l",
+            "nextState": "state3",
+            "decision": "none"
+          }
+        }
+      }
+    ],
+    "state3":[
+      {
+        "Transitions": {
+          "Transition1": {
+            "charRead": "a",
+            "charWrote": "a",
+            "direction": "l",
+            "nextState": "state3",
+            "decision": "none"
+          },
+          "Transition2": {
+            "charRead": "b",
+            "charWrote": "b",
+            "direction": "l",
+            "nextState": "state3",
+            "decision": "none"
+          },
+          "Transition3": {
+            "charRead": "$",
+            "charWrote": "$",
+            "direction": "r",
+            "nextState": "state0",
+            "decision": "none"
+          }
+        }
+      }
+    ]
+  }
+
+
+
+
+}

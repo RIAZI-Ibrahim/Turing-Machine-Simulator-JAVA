@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="org.json-chargebee-1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Téléchargements/org.json-chargebee-1.0.jar!/" />
+      <root url="jar://$USER_HOME$/Téléchargements/easyjson-core-3.2.26.jar!/" />
+      <root url="jar://$USER_HOME$/Téléchargements/jar_files(2)/simplejson-to-easyjson-3.2.26.jar!/" />
+      <root url="jar://$USER_HOME$/Téléchargements/jar_files(2)/langx-java-4.8.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
